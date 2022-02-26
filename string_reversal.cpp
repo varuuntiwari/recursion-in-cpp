@@ -14,6 +14,12 @@ int main() {
     string str("std::String");
     cout<<"Enter string to reverse: ";
     std::getline(std::cin, str);
-    cout<<reverse_str(str);
+    string rts = reverse_str(str);
+    cout<<"The reverse is "<<rts<<endl;
+    if(str == rts) {
+        cout<<"Input is a palindrome";
+    } else {
+        cout<<"Input is not a palindrome";
+    }
     return 0;
 }
