@@ -1,3 +1,9 @@
+/*
+    Reverses a string by concatenating the first character
+    to substring of original string not containing the
+    first character until all characters have been added
+    to the last.
+*/
 #include <iostream>
 #include <string>
 using namespace std;
